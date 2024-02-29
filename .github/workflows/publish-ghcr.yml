@@ -2,10 +2,10 @@ name: run the tests
 on:
   push
     branches:
-      - master
+      - main
   pull request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
