@@ -1,12 +1,11 @@
 name: run the tests, build image
 on:
-  push
+  push:
     branches:
       - main
   pull_request:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
