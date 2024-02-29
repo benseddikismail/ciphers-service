@@ -1,9 +1,9 @@
-name: run the tests
+name: run the tests, build image
 on:
   push
     branches:
       - main
-  pull request:
+  pull_request:
     branches:
       - main
 
