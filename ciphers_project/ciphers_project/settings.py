@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-%40=9ovn1a%r4w7oqiye)cp+625b$a#+6htv(^$8i7ibh+_)hv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ciphers-service-latest-elnu.onrender.com']
 
 
 # Application definition
@@ -128,5 +128,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "https://pages.github.iu.edu",
-    "http://localhost:3000"
+    "http://localhost:3000",
 ]
